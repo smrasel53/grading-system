@@ -1,0 +1,19 @@
+*{margin: 0;padding: 0;outline: 0;}
+body{font-family: verdana;font-size: 16px;color: #444;}
+.wrapper{width: 800px;margin: 0 auto;}
+.clear{overflow: hidden;}
+.headeropt, .footeropt{background: #666;color: #fff;padding: 10px;text-align: center;}
+.headeropt h2{font-size: 40px;} 
+.footeropt p{padding-bottom: 5px;}
+.footeropt a{text-decoration: none;color: #fff;}
+.footeropt a:hover{text-decoration: underline;color: #fff;}
+.content{border: 15px solid #666;min-height: 400px;background: #f2f2f2;display: block;}
+.element{padding: 10px;width: 500px;margin: 0 auto;}
+.element h2{text-align: center;}
+input[type="text"], input[type="number"]{padding: 5px;width: 350px;}
+input[type="submit"]{background: #666;border: 1px solid #444;color: #fff;cursor: pointer;font-size: 20px;padding: 5px 20px;}
+.tblone{width:500px;margin: 0 auto;border:1px solid #fff;}
+.tblone td{padding:5px 10px;text-align:center;}
+
+table.tblone tr:nth-child(2n+1){background:#fff;height:30px;}
+table.tblone tr:nth-child(2n){background:#fdf0f1;height:30px;}
